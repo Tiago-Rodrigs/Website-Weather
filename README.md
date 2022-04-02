@@ -1,6 +1,18 @@
 # Weather App
 
-This is a challenge from Devchallenges
+This is a challenge from Devchallenges. Developed with the technologies listed bellow. The app was splited in three main Components and united in App:
+
+* ## App
+
+* ### - Main
+
+   * ##### -- LargeCard
+   * ##### -- MediumCard
+   * ##### -- SmallCard
+
+* ### - Side-section
+
+* ### - Search
 
 # Links
 
