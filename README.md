@@ -8,7 +8,7 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 
 ![Portfolio overview](https://firebasestorage.googleapis.com/v0/b/react-app-acd6d.appspot.com/o/1.png?alt=media&token=7a937491-014b-47c0-80b8-fdbf75666195)
 
-![Portfolio overview](https://firebasestorage.googleapis.com/v0/b/react-app-acd6d.appspot.com/o/2.png?alt=media&token=7ec4ed19-6d29-40d6-8b72-34c6a2e5611d)
+![Portfolio overview](./src/assets/c.png)
 
 <br>
 
