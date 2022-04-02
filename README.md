@@ -20,7 +20,7 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 
 **User Can:**
 
-- see city weather as default, preferably current location
+- see city weather as default
 - search for city
 - see weather of today and the next 5 days
 - see the date and location of the weather
@@ -30,7 +30,7 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 - see humidity percentage
 - see a visibility indicator
 - see the air pressure number
-- request my current location weather
+- request current location weather
 - convert temperature in Celcius to Fahrenheit and vice versa
 
 <br>
@@ -60,5 +60,4 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 
 - [Meta Weather](https://https://www.metaweather.com/api/)
 - [Font awesome](https://fontawesome.com/)
-
 - [ Cors proxy ](https://github.com/Rob--W/cors-anywhere)
