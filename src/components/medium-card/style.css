@@ -1,0 +1,39 @@
+.mediumcard-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #1e213a;
+  color: white;
+  width: 299px;
+  height: 149px;
+  margin: 12px;
+}
+
+.mediumcard-container h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 75px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mediumcard-container h1 span {
+  color: #e7e7eb;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 75px;
+  margin: 0px;
+}
+
+.mediumcard-container p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 5px;
+}

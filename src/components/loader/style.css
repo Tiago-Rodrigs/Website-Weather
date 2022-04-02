@@ -1,0 +1,41 @@
+
+/* Loading screen */
+
+.loading-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.625);
+    height: 100vh;
+    touch-action: none;
+    -ms-touch-action: none;
+    width: 100%;
+  }
+  
+  .loading-container h1 {
+    font-size: 21pt;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .fa-spinner {
+    animation: spin 2s linear infinite;
+  }
+  
+  .icon{
+    z-index: 2;
+    color: white;
+    font-size: 60pt;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

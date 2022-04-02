@@ -1,0 +1,188 @@
+.search-container {
+  position: absolute;
+  width: 30%;
+  animation: slide-in 1s;
+  height: 100vh;
+  background: #1e213a;
+  z-index: 2;
+  cursor: pointer;
+  overflow-y:scroll;
+  
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+
+
+/* hide search section */
+
+.hide {
+  display: none;
+}
+
+.slide-out {
+  position: absolute;
+  background: #1e213a;
+  animation: slide-out 2s;
+  min-height: 100%;
+  width: 30%;
+  z-index: 2;
+  left: -100%;
+}
+
+.fa-times {
+  position: absolute;
+  right: 10%;
+  top: 10px;
+  color: #e7e7eb;
+  font-size: 17pt;
+  cursor: pointer;
+}
+
+form {
+  position: relative;
+  top: 65px;
+  margin: auto;
+  width: 80%;
+  height: 40px;
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+  color: #616475;
+}
+
+form input {
+  position: absolute;
+  left: 0px;
+  width: 60%;
+  height: 85%;
+  padding-left: 40px;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+
+form button {
+  position: absolute;
+  background: #3c47e9;
+  color: white;
+  border: transparent;
+  right: 0px;
+  width: 20%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.search-suggestion {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  margin: 110px auto -60px auto;
+}
+
+.search-suggestion:hover {
+  border: 1px solid #ffff;
+}
+
+.search-suggestion li {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e7e7eb;
+  margin: auto;
+  text-align: left;
+  list-style: none;
+  width: 70%;
+}
+
+.search-container .fa-angle-right {
+  color: #ffff;
+  width: 10%;
+}
+
+.search-container .fa-angle-right:hover {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 1035px) {
+  .search-container {
+    position: absolute;
+    width: 100%;
+  }
+
+  form {
+    position: relative;
+    top: 65px;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+  }
+
+  .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    color: #616475;
+  }
+
+  form input {
+    left: 0px;
+    width: 60%;
+    height: 87%;
+    padding-left: 40px;
+    margin: 0px;
+    background: transparent;
+    outline: none;
+  }
+
+  form button {
+    position: absolute;
+    right: 0px;
+    background: #3c47e9;
+    color: white;
+    border: transparent;
+    right: 0px;
+    width: 20%;
+    height: inherit;
+  }
+  .slide-out {
+    width: 100%;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}

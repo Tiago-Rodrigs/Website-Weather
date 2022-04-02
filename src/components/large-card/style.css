@@ -1,0 +1,71 @@
+.largecard-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #1e213a;
+  color: white;
+  width: 299px;
+  height: 194px;
+  margin: 12px;
+}
+
+.largecard-container h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 75px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.largecard-container h1 span {
+  color: #e7e7eb;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 75px;
+  margin: 0px;
+}
+
+.largecard-container p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 5px;
+}
+
+.largecard-container p:first-child {
+  margin-top: 0px;
+}
+
+.porcentagem-container {
+  width: 80%;
+  margin: -10px auto -30px auto;
+  text-align: right;
+}
+
+.porcentagem-container p {
+  font-size: 12px;
+}
+
+.porcentagem-container .porcentagem-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.porcentagem-container .porcentagem-line {
+  width: 100%;
+  background: #e7e7eb;
+  height: 6px;
+  border-radius: 10px;
+}
+
+.porcentagem-container .porcentagem {
+  background: #ffec65;
+  border-radius: 10px;
+  height: 6px;
+}
