@@ -2,7 +2,7 @@
 
 This is a challenge from Devchallenges. Developed with the technologies listed bellow. The app was splited in three main Components and united in App:
 
-- ### App
+- App
 
 - Main
 
@@ -18,7 +18,7 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 
 # Features
 
-## User Can:
+**User Can:**
 
 - see city weather as default, preferably current location
 - search for city
@@ -56,7 +56,7 @@ This is a challenge from Devchallenges. Developed with the technologies listed b
 
 # Acknowledgements
 
-## APi:
+**APi:**
 
 - [Meta Weather](https://https://www.metaweather.com/api/)
 - [Font awesome](https://fontawesome.com/)
