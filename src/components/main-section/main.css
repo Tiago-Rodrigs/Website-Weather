@@ -57,12 +57,14 @@
   border: transparent;
   background: #585676;
   color: white;
+  cursor: pointer;
 }
 
 
 .on{
   background: #E7E7EB;
   color: black;
+  
 }
 
 .off{
