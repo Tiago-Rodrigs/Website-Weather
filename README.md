@@ -1,6 +1,6 @@
 # Weather App
 
-This is a challenge from Devchallenges. Developed with the technologies listed bellow. The app was splited in three main Components and united in App:
+This is a challenge from Devchallenges. Developed with the following technologies listed bellow. The app was splited in small components and united in App: 
 
 <br>
 
